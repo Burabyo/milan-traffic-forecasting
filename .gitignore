@@ -1,0 +1,19 @@
+# Raw and processed data are never committed (size + Dataverse terms of use)
+data/
+Dataverse/
+*.npy
+*.parquet
+
+# Generated artefacts - regenerate with the pipeline
+outputs/figures/
+outputs/models/
+outputs/logs/*.csv
+
+# Keep the tables: they are small and are what the report quotes
+!outputs/tables/
+
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

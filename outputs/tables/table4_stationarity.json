@@ -1,0 +1,13 @@
+{
+  "square_id":5161.0,
+  "adf_statistic":-17.1132406607,
+  "adf_pvalue":7.341129443e-30,
+  "adf_statistic_first_diff":-12.5964408625,
+  "adf_pvalue_first_diff":1.77457018e-23,
+  "kpss_statistic":0.1409519887,
+  "kpss_pvalue":0.1,
+  "variance_total":1995346.5939102166,
+  "seasonal_strength":0.8782946347,
+  "trend_strength":0.1064952636,
+  "residual_share_of_variance":0.1197924167
+}

@@ -1,0 +1,10 @@
+{
+  "square_id":5161.0,
+  "acf_lag_1":0.984364412,
+  "acf_lag_6_1h":0.9351608277,
+  "acf_lag_144_1d":0.8698086342,
+  "acf_lag_288_2d":0.7600943158,
+  "acf_lag_1008_7d":0.7979100131,
+  "first_insignificant_lag":35.0,
+  "significance_band":0.0243464172
+}

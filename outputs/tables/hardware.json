@@ -1,0 +1,12 @@
+{
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "python": "3.13.15",
+  "cpu_count_physical": 10,
+  "cpu_count_logical": 10,
+  "ram_gb": 16.0,
+  "torch": "2.14.0",
+  "cuda_available": false,
+  "mps_available": true,
+  "gpu": "Apple Silicon GPU (MPS)"
+}

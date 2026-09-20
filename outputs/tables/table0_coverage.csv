@@ -1,0 +1,8 @@
+check,value
+timesteps observed,8928.0
+timesteps expected,8928.0
+missing timesteps,0.0
+duplicate timestamps,0.0
+squares,10000.0
+zero-valued cells (%),0.17
+all-zero squares,0.0

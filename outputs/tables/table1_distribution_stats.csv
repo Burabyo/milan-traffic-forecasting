@@ -1,0 +1,13 @@
+statistic,value
+areas,10000.0
+areas with zero traffic,0.0
+mean,555289.375
+median,277871.375
+std,892595.8125
+skewness,4.265382289886475
+kurtosis,25.51555633544922
+max / median ratio,45.848793029785156
+max / median ratio (non-zero areas),45.848793029785156
+Gini coefficient,0.6080795327833
+share of traffic in busiest 1% of areas,0.11049206554889679
+share of traffic in busiest 10% of areas,0.48388543725013733

@@ -1,0 +1,3 @@
+label,peak_rss_mb,baseline_rss_mb,delta_rss_mb,wall_seconds,rows,frame_mb,file,reduction_x
+"naive: all columns, inferred dtypes",663.9375,93.53125,570.40625,1.0206292499788105,4842625,295.570499420166,sms-call-internet-mi-2013-11-01.txt,15.373510755024336
+"optimised: 3 columns, downcast, chunked+grouped",859.765625,667.296875,192.46875,0.7461925410316326,1439982,19.22595977783203,sms-call-internet-mi-2013-11-01.txt,15.373510755024336

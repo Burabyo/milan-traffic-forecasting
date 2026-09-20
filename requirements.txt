@@ -1,0 +1,14 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0          # Parquet engine
+matplotlib>=3.8
+psutil>=5.9            # memory measurement (Task 1 evidence)
+
+# Statistical model + diagnostics (ADF, KPSS, ACF/PACF, STL, SARIMAX)
+statsmodels>=0.14
+scipy>=1.11
+
+# Neural models. If the default wheel is wrong for your platform, install from
+# https://pytorch.org/get-started/locally/ first, then re-run this file.
+torch>=2.0
