@@ -1,0 +1,17 @@
+timestamp,model,square_id,params,val_MAE,val_RMSE,val_MAPE_%,train_seconds,total_seconds,epochs_run,n_parameters,reasoning
+2026-09-20T19:39:46,TCN,5161,"{""levels"": 5}",99.2861,150.8697,7.551,8.13,13.08,27,28161,grid search (automated)
+2026-09-20T19:39:56,TCN,5161,"{""levels"": 6}",96.2509,145.4958,7.546,10.16,10.21,30,34369,grid search (automated)
+2026-09-20T19:40:11,LSTM,5161,"{""hidden"": 64}",114.886,177.9122,8.026,13.14,13.87,28,50497,starting point; want to see whether it underfits before adding capacity
+2026-09-20T19:40:41,LSTM,5161,"{""hidden"": 128}",106.7632,163.6882,7.746,26.73,27.47,31,199297,<what the L1 training curve actually showed>
+2026-09-20T19:47:46,SARIMA,5161,"{""order"": [3, 0, 3]}",135.5209,209.1274,10.143,0.56,6.36,,7,"best by AIC (-2119.3), clear 61-point gap to second"
+2026-09-20T19:47:49,SARIMA,5161,"{""order"": [2, 0, 3]}",136.6915,210.3327,10.25,0.29,1.02,,6,"second by AIC, half the fit time; check whether the AIC gap shows up on validation"
+2026-09-20T19:47:51,SARIMA,5161,"{""order"": [2, 0, 1]}",136.8019,210.9638,10.252,0.14,0.86,,4,the order the first test run used; quantify what it cost
+2026-09-20T19:53:35,TCN,5161,"{""levels"": 5, ""seed"": 42}",99.2861,150.8697,7.551,7.98,8.73,27,28161,seed stability check
+2026-09-20T19:53:47,TCN,5161,"{""levels"": 6, ""seed"": 42}",96.2509,145.4958,7.546,10.32,10.98,30,34369,seed stability check
+2026-09-20T19:53:59,TCN,5161,"{""levels"": 5, ""seed"": 1}",109.5781,169.7952,7.801,9.16,9.86,32,28161,seed stability check
+2026-09-20T19:54:10,TCN,5161,"{""levels"": 6, ""seed"": 1}",105.7394,161.8364,7.517,8.68,9.33,25,34369,seed stability check
+2026-09-20T19:54:17,TCN,5161,"{""levels"": 5, ""seed"": 7}",103.0852,158.3481,7.478,5.28,5.97,18,28161,seed stability check
+2026-09-20T19:54:27,TCN,5161,"{""levels"": 6, ""seed"": 7}",103.38,158.6949,7.532,7.96,8.49,23,34369,seed stability check
+2026-09-20T19:56:31,LSTM,5161,"{""hidden"": 128, ""seed"": 42}",106.7632,163.6882,7.746,26.62,27.4,31,199297,"seed stability check, matching the TCN protocol"
+2026-09-20T19:57:08,LSTM,5161,"{""hidden"": 128, ""seed"": 1}",106.1003,162.1365,7.789,34.58,35.29,41,199297,"seed stability check, matching the TCN protocol"
+2026-09-20T19:57:37,LSTM,5161,"{""hidden"": 128, ""seed"": 7}",104.6121,159.4043,7.742,26.08,26.81,30,199297,"seed stability check, matching the TCN protocol"

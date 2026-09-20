@@ -1,7 +1,7 @@
 ,training_s,training_s,inference_total_s_median,inference_total_s_median,inference_ms_per_step,inference_ms_per_step
 ,mean,std,mean,std,mean,std
 model,,,,,,
-LSTM,16.4088,1.2406,0.024,0.0008,0.0238,0.0008
-SARIMA,0.1611,0.025,0.0056,0.0001,0.0056,0.0001
+LSTM,36.6184,12.5984,0.0481,0.0017,0.0478,0.0017
+SARIMA,0.806,0.23,0.0065,0.0001,0.0065,0.0001
 SeasonalNaive,0.0,0.0,0.0001,0.0,0.0001,0.0
-TCN,10.0818,4.6438,0.0103,0.0001,0.0102,0.0001
+TCN,12.0937,3.6812,0.0123,0.0003,0.0122,0.0003

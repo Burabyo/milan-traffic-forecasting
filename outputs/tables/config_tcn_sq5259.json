@@ -1,9 +1,9 @@
 {
   "model": "TCN",
   "device": "mps",
-  "n_parameters": 28161,
-  "epochs_run": 54,
-  "best_val_mse_scaled": 0.008221104815010987,
+  "n_parameters": 34369,
+  "epochs_run": 48,
+  "best_val_mse_scaled": 0.007963770660497839,
   "seq_len": 144,
   "epochs": 60,
   "batch_size": 128,
@@ -14,7 +14,7 @@
   "seed": 42,
   "dropout": 0.1,
   "channels": 32,
-  "levels": 5,
+  "levels": 6,
   "kernel": 3,
-  "receptive_field": 125
+  "receptive_field": 253
 }

@@ -1,9 +1,9 @@
 {
   "model": "LSTM",
   "device": "mps",
-  "n_parameters": 50497,
-  "epochs_run": 39,
-  "best_val_mse_scaled": 0.014098720861569283,
+  "n_parameters": 199297,
+  "epochs_run": 37,
+  "best_val_mse_scaled": 0.013598647545136157,
   "seq_len": 144,
   "epochs": 60,
   "batch_size": 128,
@@ -12,7 +12,7 @@
   "patience": 8,
   "grad_clip": 1.0,
   "seed": 42,
-  "hidden": 64,
+  "hidden": 128,
   "layers": 2,
   "dropout": 0.1
 }

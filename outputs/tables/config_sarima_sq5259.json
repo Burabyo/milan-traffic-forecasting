@@ -1,9 +1,9 @@
 {
   "model": "SARIMA",
   "order": [
-    2,
+    3,
     0,
-    1
+    3
   ],
   "seasonal_order": [
     0,
@@ -12,6 +12,6 @@
     144
   ],
   "log_transform": true,
-  "aic": -4483.937402080323,
-  "n_params": 4
+  "aic": -4691.241534764084,
+  "n_params": 7
 }

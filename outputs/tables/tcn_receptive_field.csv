@@ -1,0 +1,6 @@
+levels,receptive_field,hours_visible,covers_daily_cycle
+3,29,4.8,False
+4,61,10.2,False
+5,125,20.8,False
+6,253,42.2,True
+7,509,84.8,True
