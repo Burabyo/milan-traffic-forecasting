@@ -1,8 +1,4 @@
-"""Generate small fake raw files with the real schema.
 
-This exists purely so the pipeline can be exercised (unit-test style) without
-the 19 GB download. It is NOT a substitute for the real data and must never be
-used to produce reported results.
 
     python -m scripts.make_synthetic_raw --out-dir /tmp/fake_raw --days 21
 """
